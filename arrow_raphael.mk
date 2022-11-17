@@ -23,13 +23,12 @@ PRODUCT_MODEL := Redmi K20 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 TARGET_INCLUDE_PIXEL_CHARGER := true
-DEVICE_MAINTAINER := TH779, kubersharma001
+DEVICE_MAINTAINER := ergdev
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+BUILD_FINGERPRINT := "google/cheetah/cheetah:13/TD1A.221105.001/9104446:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys"
-
-BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
+    PRIVATE_BUILD_DESC="cheetah-user 13 TD1A.221105.001 9104446 release-keys"
