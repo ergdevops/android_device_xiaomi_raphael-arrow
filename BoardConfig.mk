@@ -48,6 +48,8 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := neutron
 TARGET_KERNEL_LLVM_BINUTILS := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := AS=llvm-as AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := /home/build/clang-neutron/aarch64-linux-gnu-
+TARGET_KERNEL_CROSS_COMPILE_ARM32_PREFIX := /home/build/clang-neutron/arm-linux-gnueabi-
 
 # Platform
 TARGET_BOARD_PLATFORM := msmnile
